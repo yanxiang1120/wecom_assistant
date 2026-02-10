@@ -1,0 +1,4 @@
+fastapi==0.115.6
+uvicorn==0.32.1
+pycryptodome==3.21.0
+requests==2.32.5
