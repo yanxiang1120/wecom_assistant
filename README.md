@@ -110,5 +110,5 @@ self._handlers: dict[str, Handler] = {
 - 你需要有一个公网地址（最好是静态IP）
 - 企业微信服务器必须能访问你的公网地址
 - 回调 URL 与企业微信后台配置应一致
-- `Token / EncodingAESKey / ReceiveID` 必须和后台配置一致
+- `Token / EncodingAESKey / CorpId` 必须和后台配置一致
 - 你需要在 企业微信管理后台 -> 应用管理 -> 你的应用 -> 企业可信IP 中配置你的公网IP后才可以发送消息
